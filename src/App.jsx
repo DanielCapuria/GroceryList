@@ -110,7 +110,7 @@ export default function App(){
 
     <form onSubmit={handleSubmit} className="new-item-form">
     <div className="form-row">
-      <label htmlFor="item">Items to add to cleaning supplies: </label>
+      <label htmlFor="item">Items to add to Cleaning supplies: </label>
       <input 
       value={newItem} 
       onChange={e => setNewItem(e.target.value)} 
