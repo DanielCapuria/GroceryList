@@ -96,7 +96,7 @@ export default function App(){
     <>
     
         <form onSubmit={handleSubmitfood} className="new-item-form"> <div className="form-row"> 
-          <label htmlFor="food">Items to add to Food supplies: </label>
+          <label htmlFor="food">Items to add to Food/Beverages supplies: </label>
            <input value={newFood} onChange={e => setNewFood(e.target.value)} type="text" id="food" /> 
            </div> 
            <button className="btn" type="submit">Add</button>
@@ -119,7 +119,7 @@ export default function App(){
     <button className="btn">Add</button>
       </form>
 
-      <h1 className="header">Food List: </h1>
+      <h1 className="header">Food/Beverage List: </h1>
     <ul className="list">  
       {food.length === 0 && "No items"}
     {food.map(food => {
