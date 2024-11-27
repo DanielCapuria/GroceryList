@@ -154,7 +154,7 @@ export default function App(){
       )
       })}
       </ul>
-    <h1 className="header">Cleaning supplies List</h1>
+    <h1 className="header">Cleaning supplies List: </h1>
     <ul className="list">  
       {tograb.length === 0 && "No items"}
     {tograb.map(tograb => {
